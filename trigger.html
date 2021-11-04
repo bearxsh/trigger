@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="title">
+        <h1>Hello World</h1>
+    </div>
+    <div class="phone">
+        <img tg-name="opacity" tg-from="0" tg-to="2" class="people"
+             src="https://www.apple.com.cn/iphone-13-pro/images/overview/display/gaming_static__d9cz1nu6j0ia_large.jpg">
+    </div>
+    <div class="title">
+        <h1>Happy Code</h1>
+    </div>
+    <div class="phone">
+        <img tg-name="opacity" tg-from="0" tg-to="2" class="people"
+             src="https://www.apple.com.cn/iphone-13-pro/images/overview/display/gaming_static__d9cz1nu6j0ia_large.jpg">
+    </div>
+</div>
+
+</body>
+</html>
+<style>
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .title {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #fbfbfd;
+    }
+
+    .phone {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .people {
+        opacity: var(--opacity);
+    }
+
+</style>
+<script src="https://cdn.jsdelivr.net/npm/@triggerjs/trigger@1.0.8/dist/bundle.min.js"></script>
